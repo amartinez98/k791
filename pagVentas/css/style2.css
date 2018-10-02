@@ -1,0 +1,103 @@
+body{
+	font-family: 'EngraversGothic BT', cursive;
+	margin: 0;
+}
+
+.header{
+	text-align: center;
+	background-color: #0ca02c;
+	width: 100%;
+	margin: 0 auto;
+	
+	padding-top: 15px;
+	
+}
+.main-menu{
+	padding-bottom: 5px;
+}
+
+.main-menu ul{
+	list-style: none;
+	margin-bottom: 5px;
+}
+
+.main-menu ul li{
+	display: inline-block;
+	margin-right: 40px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.main-menu ul li a:hover {
+	color: #e8e8ea;
+	border-bottom: 2px solid #dadfef;
+}
+.main-menu ul li a{
+	text-decoration: none;
+	color: white;
+	transition: all 0.2s ease-in;
+	font-size: 25px;
+	font-weight: 800;
+}
+
+.footer{
+	color: white;
+	text-align: center;
+	background-color: #0ca02c;
+	padding-top:  30px;
+	padding-bottom: 30px;
+}
+.slider{
+	width: 100%;	
+	margin: 0 auto;
+	text-align:center;
+}
+.slider img{
+	width: 100%;
+	text-align: center;
+}
+.container {
+	margin: 0 auto;
+	max-width: 1170px;
+	overflow: hidden;
+}
+.title-section {
+	font-size: 30px;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.title-contact {
+	background-color: #4fe29e;
+	color: black;
+}
+
+.contact-form {
+	display: flex;
+	flex-direction: column;
+	padding: 0  20px 30px
+}
+.contact-form input[type="text"] {
+	display: block;
+}
+.form-control {
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	font-size: 16px;
+	margin: 7px 0;
+	padding: 7px 0;
+	width: 100%;
+
+}
+.btn-contact {
+	background-color: #32618D;
+	border-radius: 5px;
+	color: #FFB606;
+	font-size: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 50%;
+	margin: 0 auto
+}
+.cont{
+	width: 60%;
+}
